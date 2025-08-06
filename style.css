@@ -1,0 +1,467 @@
+/* Fonte geral do corpo */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #F9FBE7; /* fundo claro suave */
+  color: #37474F; /* texto confortável */
+}
+
+/* Cabeçalho com fundo azul céu */
+header {
+  background-color: #81D4FA;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Navegação simples */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #004D40;
+  font-weight: 600;
+}
+
+/* HERO - imagem + texto */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Caixa de texto sobre a imagem */
+/* Container com imagem + texto ao lado */
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #E1F5FE; /* azul clarinho */
+}
+
+/* Imagem principal */
+.hero-imagem {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bloco lateral com texto e menu */
+.hero-lateral {
+  max-width: 300px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilo do botão */
+.botao {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #FFB74D;
+  color: #263238;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #FFA726;
+}
+
+
+
+/* Botão bonito e suave */
+.botao {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #FFB74D; /* laranja suave */
+  color: #263238;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #FFA726;
+}
+
+/* Seções gerais */
+.secao {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Fundo branco para seções */
+.fundo-claro {
+  background-color: #473a5c;
+  color: white;
+  padding: 40px 20px;
+
+}
+
+/* Título das seções */
+.secao h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Galeria com grid */
+.grade-fotos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.grade-fotos img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #00897B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+ #github-btn {
+    background-color: #24292e; /* cor oficial do GitHub */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #github-btn:hover {
+    background-color: #e2e5e9;
+  }
+  .diario-de-bordo {
+  background-color: #fefdf9;
+  padding: 50px 20px;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.diario-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fffef5;
+  padding: 30px;
+  border: 2px dashed #c9c3aa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.diario-de-bordo h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4e4a36;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.diario-container p {
+  line-height: 1.7;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+/*:hover ativa o estilo quando o mouse passa por cima.
+
+O background-color muda levemente a cor.
+
+A box-shadow aumenta para dar sensação de profundidade.
+
+O transition faz tudo acontecer de forma suave.*/
+.diario-container:hover {
+  background-color:#e4f1fb; /* lavanda claro */
+  box-shadow: 0 6px 16px rgba(78, 132, 173, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.sobre-jubartes {
+  background-color: #f0f8ff; /* azul-claro suave, tipo oceano calmo */
+  padding: 50px 20px;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.sobre-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-left: 6px solid #b39ddb; /* lavanda roxa */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+.sobre-container:hover {
+  background-color: #f6f0ff; /* hover suave lavanda */
+}
+
+.sobre-jubartes h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5e4a82;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.sobre-container p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+.imagem-rota {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.secao {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container do carrossel */
+.carrossel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Wrapper que "corta" o excesso de imagens */
+.carrossel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Carrossel em linha */
+.carrossel {
+  display: flex;
+  transition: transform 0.4s ease;
+  gap: 10px;
+}
+
+/* Imagens do carrossel */
+.carrossel img {
+  width: calc((100% / 2) - 5px); /* 2 imagens visíveis com gap de 10px */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  user-select: none;
+}
+
+/* Botões das setas */
+.btn {
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.btn:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.seta-esq {
+  margin-right: 10px;
+}
+
+.seta-dir {
+  margin-left: 10px;
+}
+/* ===========================================
+   RESPONSIVIDADE PARA TELAS PEQUENAS (celular)
+   =========================================== */
+@media (max-width: 768px) {
+
+  /* Torna a hero (imagem + texto) em coluna no celular */
+  .hero-container {
+    flex-direction: column;
+    padding: 20px 15px;
+    text-align: center;
+  }
+
+  .hero-imagem {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-lateral {
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  /* Menus ficam empilhados em vez de lado a lado */
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  /* Reduz o padding das seções para ocupar menos espaço no celular */
+  .secao,
+  .diario-de-bordo,
+  .sobre-jubartes {
+    padding: 30px 15px;
+  }
+
+  /* Deixa a galeria mais vertical e seta visível */
+  .carrossel-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .carrossel-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carrossel img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Botões de seta maiores e com espaço embaixo */
+  .seta-esq,
+  .seta-dir {
+    font-size: 24px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background-color: #81D4FA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .seta-esq:hover,
+  .seta-dir:hover {
+    background-color: #4fc3f7;
+  }
+
+  /* Imagem da seção "sobre" adaptada */
+  .imagem-rota {
+    max-width: 100%;
+    margin: 15px auto;
+  }
+
+  /* Ajuste no rodapé para evitar quebra em telas pequenas */
+  footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  #github-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+}
+/* Estiliza o fundo da seção contato com tema leve */
+/* Fundo azul degradê leve para a seção contato */
+.fundo-contato {
+  background: linear-gradient(to bottom right, #E0F7FA, #B2EBF2); /* degrade azul suave */
+  padding: 50px 20px;
+}
+
+/* Caixa branca centralizada dentro da seção contato */
+.contato-container {
+  max-width: 700px;
+  margin: 0 auto; /* centraliza horizontalmente */
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 6px 16px rgba(0, 128, 128, 0.1);
+  text-align: center; /* centraliza o texto */
+  position: relative;
+  overflow: hidden;
+  border: 2px dashed #4dd0e1; /* borda estilo água */
+}
+
+/* Título da seção contato */
+.contato-container h2 {
+  color: #00796B; /* azul oceano */
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Parágrafo texto da seção contato */
+.contato-container p {
+  color: #455A64; /* cor confortável */
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Destaque do email */
+.contato-container strong {
+  color: #006064;
+  font-size: 17px;
+}
+.contato-container:hover {
+  background-color: #FFB74D; /* fundo laranja bico */
+  color: white; /* texto branco */
+  cursor: pointer; /* indica que é interativo */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#sonhos {
+  background-color: #FFF3E0; /* um laranja bem suave, tipo bico de pato */
+  color: #6B4226; /* tom mais escuro de laranja para o texto */
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 165, 0, 0.15);
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
