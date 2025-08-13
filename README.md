@@ -3,7 +3,7 @@
 Site informativo sobre as baleias-jubarte, desenvolvido para apresentar curiosidades, imagens e informações sobre essa espécie fascinante.  
 O projeto foi criado com **HTML, CSS e JavaScript**, explorando conceitos de responsividade e boas práticas de programação.
 
-![Preview do projeto](https://revistapesquisa.fapesp.br/wp-content/uploads/2022/01/SITE_BaleiasJubarte-0-1140.jpg) 
+![Preview do projeto](https://www.viva.bio.br/site2018/wp-content/uploads/2019/03/12_mar_2019.jpg) 
 
 ---
 
