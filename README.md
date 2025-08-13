@@ -12,3 +12,5 @@ O projeto foi criado com **HTML, CSS e JavaScript**, explorando conceitos de res
 - Galeria de imagens responsiva
 - Navegação fluida entre seções
 - Design adaptado para dispositivos móveis e desk
+
+- acesse aqui= https://be774yd.github.io/Diario-de-bordo/
